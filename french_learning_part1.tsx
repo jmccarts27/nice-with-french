@@ -137,9 +137,6 @@ const FrenchLearning = () => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [sessionMode, setSessionMode] = useState('full');
 
-// PART 2: LOGIC, HANDLERS, AND UI COMPONENTS
-// Replace the return statement in Part 1 with all the code below
-
   // Get filtered data based on mode and filters
   const getFilteredData = () => {
     let filtered = frenchData;
